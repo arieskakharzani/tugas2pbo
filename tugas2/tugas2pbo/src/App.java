@@ -14,7 +14,7 @@ public class App {
         Elemen f = new Dosen ("Nivotko", 3);
         f.cekJamSibuk();
 
-        int total = a.cekJamSibuk()+b.cekJamSibuk()+c.cekJamSibuk()+d.cekJamSibuk()+d.cekJamSibuk()+e.cekJamSibuk()+f.cekJamSibuk();
+        int total = a.getJamSibuk()+b.getJamSibuk()+c.getJamSibuk()+d.getJamSibuk()+e.getJamSibuk()+f.getJamSibuk();
         System.out.println("Total jam sibuk elemen Fasilkom adalah " + total);
     }
 }
